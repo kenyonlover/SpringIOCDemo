@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean id="user1" class="com.springioc.entity.User">
+		<property key="name" value="小王"></property>
+		<property key="sex" value="男"></property>
+	</bean>
+	<bean id="user2" class="com.springioc.entity.User">
+		<property key="name" value="小红"></property>
+		<property key="sex" value="女"></property>
+	</bean>
+</beans>
